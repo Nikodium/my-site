@@ -1,0 +1,45 @@
+body {
+    background-image:
+    linear-gradient(
+        rgba(0, 0, 0, 0.55),
+        rgba(0, 0, 0, 0.55)
+    ),
+    url("background.jpg");
+
+    background-size: cover;
+    background-position: center 50%;
+    background-repeat:no-repeat;
+    min-height: 100vh;
+
+    color:azure;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    
+    }
+    .btn {
+        display: inline-block;
+        padding:12px 25px;
+        background: #00aaff;
+        color: white;
+        text-decoration: none;
+        border-radius: 30px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    .btn:hover {
+        background: #0088cc;
+        transform: scale(1.08);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+        
+    }
+    .content {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 25px;
+            max-width: 600px;
+            margin: 120px auto;
+            border-radius: 15px;
+
+            position: relative;
+            z-index: 2;
+
+        }
